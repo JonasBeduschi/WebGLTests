@@ -1,0 +1,16 @@
+{
+"companyName": "VGEducacional",
+"productName": "Microlins",
+"productVersion": "0.1",
+"dataUrl": "WebGLTests.data.unityweb",
+"wasmCodeUrl": "WebGLTests.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGLTests.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.8f1"
+}
