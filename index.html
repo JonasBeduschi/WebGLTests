@@ -4,10 +4,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Suzano</title>
+	<title>DiaDasCriancas</title>
 	<script src="Build/UnityLoader.js"></script>
 	<script>
-		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json");
+		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/KidsDay.json");
 		var scaleToFit;
 		try {
 			scaleToFit = !!JSON.parse("true");
@@ -25,15 +25,15 @@
 				w = window.innerWidth;
 				h = window.innerHeight;
 
-				var r = 720 / 1280;
+				var r = 600 / 960;
 
 				if (w * r > window.innerHeight) {
 					w = Math.min(w, Math.ceil(h / r));
 				}
 				h = Math.floor(w * r);
 			} else {
-				w = 1280;
-				h = 720;
+				w = 960;
+				h = 600;
 			}
 
 			container.style.width = canvas.style.width = w + "px";
@@ -47,7 +47,7 @@
 		html,
 		body {
 			background: #000;
-			background: #000;
+			background: ;
 			width: 100%;
 			height: 100%;
 			overflow: visible;
